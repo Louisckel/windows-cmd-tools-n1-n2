@@ -1,0 +1,21 @@
+
+🔧 Interventions techniques et maîtrise CMD (niveau N1+ / N2)
+
+• Réalisation de nombreuses tâches techniques via ligne de commande Windows (CMD) et scripts .bat :
+  - Arrêt/redémarrage système : shutdown /s /r /f
+  - Gestion de processus : tasklist / taskkill /im
+  - Gestion de réseau : netstat, ipconfig, netsh int ip reset
+  - Maintenance système : sfc /scannow, dism /scanhealth
+  - Listing des pilotes : driverquery
+  - Nettoyage : suppression automatisée des fichiers temporaires (%TEMP%)
+  - Déploiement logiciel via winget install (Adobe Reader, OpenOffice, etc.)
+  - Modification des variables d’environnement système (ex : correction du PATH Chrome sur caisse)
+  - Scripts de déplacement de fichiers utilisateurs vers des répertoires de sauvegarde
+
+• Procédure exceptionnelle de remise en production suite à l’incident CrowdStrike (juillet 2024) :
+  - Intervention en mode Recovery sur postes de caisse bloqués (boot bloqué)
+  - Navigation jusqu’au répertoire drivers via CMD
+  - Déplacement manuel du pilote corrompu (move C-00000291*.sys ./old-cd)
+  - Redémarrage contrôlé du système avec récupération de l’environnement utilisateur
+
+• Capacité à intervenir en environnement dégradé ou semi-automatisé, avec adaptation en conditions réelles de production.

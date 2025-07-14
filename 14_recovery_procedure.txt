@@ -1,0 +1,12 @@
+Procédure de remise en production suite à l'incident CrowdStrike (juillet 2024) :
+
+1. Redémarrer la machine (caisse) et entrer dans les options de récupération (Recovery).
+2. Aller dans : Options avancées > Réparation du démarrage > Startup Settings > Redémarrer.
+3. À l’écran suivant, appuyer sur F5 (mode sans échec avec réseau).
+4. Cliquer sur 'Autre utilisateur' et ouvrir une session.
+5. Appuyer sur Win + R et taper CMD pour ouvrir l’invite de commandes.
+6. Naviguer dans les fichiers :
+   cd C:\Windows\System32\drivers
+7. Identifier le fichier CrowdStrike fautif :
+   move C-00000291*.sys ./old-cd
+8. Redémarrer la caisse normalement.
